@@ -16,20 +16,28 @@ html, body{
     display: flex;
     justify-content: center;
 
-    background-color: rgb(223, 104, 124);
-    height: 44px;
-    width: 582px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    height: 50px;
+    width: 460px;
 
     font-size: 16px;
 
     margin: 25px;
-    border: black solid;
+    border: rgb(189, 189, 189) solid 1px;
     border-radius: 30px;
+}
+
+#magnifying{
+    height: 30px;
 }
 
 #form_search{
     display: flex;
     justify-content: center;
+}
+
+#mic{
+    height: 30px;
 }
 
 #submit_form{
