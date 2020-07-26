@@ -16,6 +16,31 @@ html, body{
     //background-color: chartreuse;
 }
 
+#div_logo_2{
+    height: 92px;
+    width: 272px;
+
+    margin: auto;
+
+    background-image: url("../logo_google.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#images{
+    float: right;
+   
+    padding-top: 75px;
+    padding-right: 5px;
+
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+}
+
+#empty_div{
+    clear: both;
+}
+
 #form_search{
     display: flex;
     justify-content: center;
