@@ -150,3 +150,27 @@ html, body{
     margin-left: 6px;
     margin-right: 6px;
 }
+
+//====================================================================================
+
+#advanced_header{
+    height: 60px;
+    background-color: rgb(241, 241, 241);
+
+    padding-top: 15px;
+}
+
+#advanced_logo{
+    height: 30px;
+    float: left;
+
+    padding-left: 20px;
+}
+
+#title_advanced{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #d93025;
+
+    padding: 24px 10px 10px 50px;
+}
