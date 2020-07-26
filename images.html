@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+    <title>Google Images</title>
     <link rel="shortcut icon" href="google_g_logo.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
@@ -27,7 +27,11 @@
      </svg>
     </div>
 
-    <input type="text" name="q" id="search">
+    <input type="text" name="q" id="images_inp_text">
+
+    <div id="cam_div">
+     <img id="cam_images" src="cam_images.png">
+    </div>
 
     <div id="mic_div">
      <svg id="mic" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -42,12 +46,14 @@
      </svg>
     </div>
 
-   <!--Here close search bar-->  
-   </div>
+    <div id="magnifying_div_2">
+     <svg id="magnifying_2" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path fill="#4285f4" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+      </path>
+     </svg>
+    </div>
 
-   <div id="submit_form">
-    <input class="submit" type="submit" value="Google Search">
-    <input class="submit" type="submit" value="I'm Felling Lucky">
+   <!--Here close search bar-->  
    </div>
   </form>
  </div>

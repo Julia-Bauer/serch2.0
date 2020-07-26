@@ -27,7 +27,7 @@ html, body{
 
     background-color: rgba($color: #000000, $alpha: 0);
     height: 45px;
-    width: 460px;
+    width: 550px;
 
     font-size: 16px;
 
@@ -50,14 +50,33 @@ html, body{
     height: 25px;
 }
 
-#search{
-    width: 370px;
+#images_inp_text{
+    width: 380px;
     border-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
 
     color: rgba(0, 0, 0, 1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 400 13.3333px;
+}
+
+#search{
+    width: 450px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+
+    color: rgba(0, 0, 0, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400 13.3333px;
+}
+
+#cam_div{
+    padding-top: 7px;
+    padding-right: 10px;
+}
+
+#cam_images{
+    height: 25px;
 }
 
 #mic_div{
@@ -69,11 +88,19 @@ html, body{
     height: 25px;
 }
 
+#magnifying_div_2{
+    padding-top: 7px;
+    padding-left: 20px;
+}
+
+#magnifying_2 {
+    height: 25px;
+}
+
 #submit_form{
     display: flex;
     justify-content: center;
     //background-color: crimson; 
-
 }
 
 .submit{
