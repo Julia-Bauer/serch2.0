@@ -8,6 +8,16 @@ html, body{
     outline: none;
 }
 
+#empty_div_1{
+    padding-top: 114px;
+}
+
+#link_to_images{
+    float: right;
+    
+    padding-right: 30px;
+}
+
 #div_logo{
     display: flex;
     justify-content: center;
@@ -19,7 +29,7 @@ html, body{
 #div_logo_2{
     height: 92px;
     width: 272px;
-
+    
     margin: auto;
 
     background-image: url("../logo_google.png");
@@ -37,7 +47,7 @@ html, body{
     font: 16px/16px roboto-regular, arial, sans-serif;
 }
 
-#empty_div{
+#empty_div_2{
     clear: both;
 }
 
