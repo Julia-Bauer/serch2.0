@@ -42,6 +42,7 @@ html, body{
    
     padding-top: 75px;
     padding-right: 5px;
+    margin: 0;
 
     color: #4285f4;
     font: 16px/16px roboto-regular, arial, sans-serif;
@@ -173,4 +174,72 @@ html, body{
     color: #d93025;
 
     padding: 24px 10px 10px 50px;
+}
+
+#find_pages{
+    width: 200px;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#form_advanced_search{
+    //background-color: greenyellow;
+}
+
+.field_info{
+    float: left;
+    display: inline-block;
+
+    height: 42px;
+    width: 16%;
+    min-width: 167px;
+
+    padding-top: 4px;
+    
+    color: #222;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    vertical-align: middle;
+
+    margin-left: 50px;
+    //background-color: indigo;
+}
+
+.input_div{
+    float: left;
+    display: inline-block;
+
+    width: 50%;
+    min-width: 167px;
+    min-height: 41px;
+    
+    vertical-align: middle;
+    //background-color: rgb(255, 230, 1);
+}
+
+.input_field{
+    display: inline-block;
+    
+    height: 30px;
+    width: 100%;
+
+    padding: 1px 8px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+
+    font: 400 13.3333px Arial;
+    font-size: 13px;
+    color: -internal-light-dark(black, white);
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+}
+
+.empty_div_as{
+    clear: both;
 }
