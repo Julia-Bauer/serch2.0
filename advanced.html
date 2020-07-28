@@ -30,7 +30,7 @@
  </div>
 
  <div class="third_col">
-  <div class="text_third_col">
+  <div id="to_do_third_col" class="text_third_col">
    To do this in the search box
   </div>
  </div>
@@ -111,16 +111,19 @@
    <div class="field_info">
     numbers ranging from:
    </div>
-   <div class="sm_input_div">
-    <input class="sm_input_field" type="text" name="as_eq" id="none_words">
-   </div>
 
-   <div>
-    or
-   </div>
-   
-   <div class="sm_input_div">
-    <input class="sm_input_field" type="text" name="as_eq" id="none_words">
+   <div id="both_sm_input_div_and_or">
+    <div class="sm_input_div">
+     <input class="sm_input_field" type="text" name="as_nlo" id="min">
+    </div>
+
+    <div id="to_div">
+     to
+    </div>
+
+    <div class="sm_input_div">
+     <input class="sm_input_field" type="text" name="as_nhi" id="max">
+    </div>
    </div>
   </div>
  
@@ -131,6 +134,151 @@
   </div>
 
   <div class="empty_div_as"></div>
+
+  <hr id="advanced_searc_hr_2">
+
+  <div class="empty_div_as"></div>
+  
+  <div id="narrow_results">
+   <h6>Then narrow your results by...</h6>
+  </div>
+
+  <div class="field">
+   <div class="field_info">
+    language:
+   </div>
+   <div class="input_div"> 
+    <select class="as_select" name="lr" id="language"></select>
+   </div>
+  </div>
+ 
+  <div class="third_col">
+   <div class="text_third_col">
+    Find pages in the language that you select.
+   </div>
+  </div>
+
+  <div class="empty_div_as"></div>
+
+  <div class="field">
+   <div class="field_info">
+    region:
+   </div>
+   <div class="input_div"> 
+    <select class="as_select" name="cr" id="region"></select>
+   </div>
+  </div>
+  
+  <div class="third_col">
+   <div class="text_third_col">
+    Find pages published in a particular region.
+   </div>
+  </div>
+ 
+  <div class="empty_div_as"></div>
+
+  <div class="field">
+   <div class="field_info">
+    last update:
+   </div>
+   <div class="input_div"> 
+    <select class="as_select" name="as_qdr" id="language"></select>
+   </div>
+  </div>
+   
+  <div class="third_col">
+   <div class="text_third_col">
+    Find pages updated within the time that you specify.
+   </div>
+  </div>
+  
+  <div class="empty_div_as"></div>
+
+  <div class="field">
+   <div class="field_info">
+    site or domain:
+   </div>
+   <div class="input_div">
+    <input class="input_field" type="text" name="as_sitesearch" id="none_words">
+   </div>
+  </div>
+ 
+  <div class="third_col">
+   <div class="text_third_col">
+    Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov
+   </div>
+  </div>
+ 
+ <div class="empty_div_as"></div>  
+
+ <div class="field">
+  <div class="field_info">
+   terms appearing:
+  </div>
+  <div class="input_div"> 
+   <select class="as_select" name="as_occt" id="terms_appearing"></select>
+  </div>
+ </div>
+
+ <div class="third_col">
+  <div class="text_third_col">
+   Search for terms in the whole page, page title or web address, or links to the page you're looking for.
+  </div>
+ </div>
+
+ <div class="empty_div_as"></div>
+
+ <div class="field">
+  <div class="field_info">
+   SafeSearch:
+  </div>
+  <div class="input_div"> 
+   <select class="as_select" name="lr" id="language"></select>
+  </div>
+ </div>
+ 
+ <div class="third_col">
+  <div class="text_third_col">
+   Tell SafeSearch whether to filter sexually explicit content.
+  </div>
+ </div>
+
+ <div class="empty_div_as"></div>
+
+ <div class="field">
+  <div class="field_info">
+   file type:
+  </div>
+  <div class="input_div"> 
+   <select class="as_select" name="lr" id="language"></select>
+  </div>
+ </div>
+  
+ <div class="third_col">
+  <div class="text_third_col">
+   Find pages in the format that you prefer.
+  </div>
+ </div>
+ 
+ <div class="empty_div_as"></div>
+
+ 
+ <div class="field">
+  <div class="field_info">
+   usage rights:
+  </div>
+  <div class="input_div"> 
+   <select class="as_select" name="lr" id="language"></select>
+  </div>
+ </div>
+  
+ <div class="third_col">
+  <div class="text_third_col">
+   Find pages that you are free to use yourself.
+  </div>
+ </div>
+ 
+ <div class="empty_div_as"></div>
 
   <input type="submit" value="Advanced Search">
  </form>
