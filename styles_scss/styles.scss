@@ -177,14 +177,39 @@ html, body{
 }
 
 #find_pages{
-    width: 200px;
+    float: left;
+    display: inline-block;
+
+    height: 42px;
+    width: 16%;
+    min-width: 167px;
+
+    margin-left: 50px;
+    padding-top: 4px;
+    color: #222;
+
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    vertical-align: middle;
+   
+    background-color: blueviolet;
+}
+
+#empty_after_find_pages{
+    float: left;
+    display: inline-block;
+
+    height: 42px;
+    width: 50%;
+    min-width: 167px;
+    min-height: 41px;
+
+    background-color: blue;
 }
 
 h6{
     font-family: Arial, Helvetica, sans-serif;
-
-    padding-left: 50px;
-    padding-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -242,4 +267,34 @@ h6{
 
 .empty_div_as{
     clear: both;
+}
+
+
+.third_col {
+    display: none;
+
+    @media screen and (min-width: 1050px){
+        float: left;
+        display: inline-block;
+
+        width: 25%;
+        margin: 0;
+        padding-left: 5px;
+        vertical-align: middle;
+
+        font-size: 13px;
+        font-weight: 700;
+        color: #777;
+        background-color: pink;
+        
+    }
+}
+
+.text_third_col{
+    display: table-cell;
+    vertical-align: middle;
+
+    height: 30px;
+    margin: 0;
+    background-color: cornflowerblue;
 }
