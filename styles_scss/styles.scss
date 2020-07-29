@@ -355,14 +355,18 @@ h6{
 #to_div{
     float: left;
     display: inline-block;
+
     height: 30px;
     width: 10%;
 
-    padding-right: 10px;
-    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
 
-    //background-color: red;
+    text-align: center;
 }
+
 #both_sm_input_div_and_or{
     float: left;
     display: inline-block;

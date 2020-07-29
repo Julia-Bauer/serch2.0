@@ -471,7 +471,13 @@
     last update:
    </div>
    <div class="input_div"> 
-    <select class="as_select" name="as_qdr" id="language"></select>
+    <select class="as_select" name="as_qdr" id="update">
+     <option value="all">anytime</option>
+     <option value="d">past 24 hours</option>
+     <option value="w">past week</option>
+     <option value="m">past month</option>
+     <option value="y">past year</option>
+    </select>
    </div>
   </div>
    
@@ -505,7 +511,13 @@
    terms appearing:
   </div>
   <div class="input_div"> 
-   <select class="as_select" name="as_occt" id="terms_appearing"></select>
+   <select class="as_select" name="as_occt" id="terms_appearing">
+    <option value="any">anywhere in the page</option>
+    <option value="title">in the title of the page</option>
+    <option value="body">in the text of the page</option>
+    <option value="url">in the URL of the page</option>
+    <option value="links">in links to the page</option>
+   </select>
   </div>
  </div>
 
@@ -522,7 +534,10 @@
    SafeSearch:
   </div>
   <div class="input_div"> 
-   <select class="as_select" name="lr" id="language"></select>
+   <select class="as_select" name="lr" id="safe">
+    <option value="images">Show most relevant results</option>
+    <option value="active">Filter explicit results</option>
+   </select>
   </div>
  </div>
  
@@ -539,7 +554,19 @@
    file type:
   </div>
   <div class="input_div"> 
-   <select class="as_select" name="lr" id="language"></select>
+   <select class="as_select" name="lr" id="field_type">
+    <option value="">any format</option>
+    <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+    <option value="ps">Adobe Postscript (.ps)</option>
+    <option value="dwf">Autodesk DWF (.dwf)</option>
+    <option value="kml">Google Earth KML (.kml)</option>
+    <option value="kmz">Google Earth KMZ (.kmz)</option>
+    <option value="xls">Microsoft Excel (.xls)</option>
+    <option value="ppt">Microsoft PowerPoint (.ppt)</option>
+    <option value="doc">Microsoft Word (.doc)</option>
+    <option value="rtf">Rich Text Format (.rtf)</option>
+    <option value="swf">Shockwave Flash (.swf)</option>
+   </select>
   </div>
  </div>
   
@@ -557,7 +584,13 @@
    usage rights:
   </div>
   <div class="input_div"> 
-   <select class="as_select" name="lr" id="language"></select>
+   <select class="as_select" name="lr" id="usage">
+    <option value="">not filtered by licence</option>
+    <option value="f">free to use or share</option>
+    <option value="fc">free to use or share, even commercially</option>
+    <option value="fm">free to use share or modify</option>
+    <option value="fmc">free to use, share or modify, even commercially</option>
+   </select>
   </div>
  </div>
   
