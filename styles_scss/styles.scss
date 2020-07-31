@@ -169,11 +169,27 @@ html, body{
 }
 
 #title_advanced{
+    float: left;
+    display: inline;
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     color: #d93025;
 
     padding: 24px 10px 10px 50px;
+}
+
+#top_links{
+    float: right;
+
+    margin-right: 80px;
+    margin-top: 14px;
+
+    font-size: small;
+}
+
+#hr_1{
+    margin-top: 4px;
 }
 
 hr{
@@ -514,5 +530,4 @@ a{
 
 #final_div{
     height: 60px;
-    background-color: crimson;
 }
