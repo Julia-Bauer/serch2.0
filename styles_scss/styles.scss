@@ -14,8 +14,22 @@ html, body{
 
 #link_to_images{
     float: right;
+    display: inline;
     
-    padding-right: 30px;
+   margin-right: 15px;
+   margin-top: 40px;
+
+   font-size: small;
+}
+
+#link_to_advanced{
+    float: right;
+    display: inline;
+    
+   margin-right: 80px;
+   margin-top: 40px;
+
+   font-size: small;
 }
 
 #div_logo{
