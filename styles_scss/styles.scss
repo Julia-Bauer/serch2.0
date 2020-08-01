@@ -484,6 +484,12 @@ h6{
     text-align: center;
 }
 
+#empty_space{
+    @media screen and (min-width: 481px){
+        display: none;
+    }
+}
+
 #both_sm_input_div_and_or{
     float: left;
     display: inline-block;
@@ -494,6 +500,12 @@ h6{
     
     vertical-align: middle;
     //background-color: skyblue;
+    @media screen and (max-width: 480px){
+        float: none;
+        display: block;
+        margin-left: 20px;
+        width: 90%;
+    }
 }
 
 #advanced_searc_hr_2{
