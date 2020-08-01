@@ -4,6 +4,13 @@ html, body{
     //background-color: coral;
 }
 
+#all_content_search{
+    @media screen and (max-width: 544px){
+        position: absolute;
+    }
+    
+}
+
 *:focus{
     outline: none;
 }
@@ -13,30 +20,53 @@ html, body{
 }
 
 #link_to_images{
-    float: right;
-    display: inline;
+   float: right;
+   display: inline;
     
    margin-right: 15px;
    margin-top: 40px;
 
    font-size: small;
+
+   @media screen and (max-width: 768px){
+    font-size: medium;
+    }
 }
 
 #link_to_advanced{
-    float: right;
-    display: inline;
+   float: right;
+   display: inline;
     
    margin-right: 80px;
    margin-top: 40px;
 
    font-size: small;
+
+   @media screen and (max-width: 768px){
+       margin-right: 40px;
+       font-size: medium;
+   }
+}
+
+#link_to_search{
+   float: right;
+   display: inline;
+    
+   margin-right: 15px;
+   margin-top: 40px;
+
+   font-size: small;
+
+   @media screen and (max-width: 768px){
+        font-size: medium;
+        }
 }
 
 #div_logo{
     display: flex;
     justify-content: center;
 
-    padding-top: 90px;
+    padding-top: 55px;
     //background-color: chartreuse;
 }
 
@@ -173,6 +203,10 @@ html, body{
     background-color: rgb(241, 241, 241);
 
     padding-top: 15px;
+
+    @media screen and (max-width: 480px){
+        display: none;
+    }
 }
 
 #advanced_logo{
@@ -180,6 +214,26 @@ html, body{
     float: left;
 
     padding-left: 20px;
+
+    @media screen and (max-width: 480px){
+        display: none;
+    }
+}
+
+#title_and_links{
+    @media screen and (max-width: 480px){
+        height: 52px;
+        background-color: rgb(241, 241, 241);
+    }
+}
+
+#div_advanced_title{
+    @media screen and (max-width: 480px){
+        float: left;
+        display: inline;
+
+        padding-top: 15px;
+    }
 }
 
 #title_advanced{
@@ -191,6 +245,12 @@ html, body{
     color: #d93025;
 
     padding: 24px 10px 10px 50px;
+    
+    @media screen and (max-width: 480px){
+        padding-top: 0;
+        padding-left: 20px;
+        padding-bottom: 0;
+    }
 }
 
 #top_links{
@@ -200,10 +260,20 @@ html, body{
     margin-top: 14px;
 
     font-size: small;
+
+    @media screen and (max-width: 480px){
+        margin-right: 20px;
+        margin-top: 5px;
+    }
 }
 
 #hr_1{
     margin-top: 4px;
+    @media screen and (max-width: 480px){
+        margin-top: 0;
+        margin-bottom: 0;
+        border-color: rgb(199, 199, 199);
+    }
 }
 
 hr{
@@ -228,6 +298,10 @@ hr{
     vertical-align: middle;
    
     //background-color: blueviolet;
+    @media screen and (max-width: 480px){
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 }
 
 #empty_after_find_pages{
@@ -240,6 +314,9 @@ hr{
     min-height: 41px;
 
     //background-color: blue;
+    @media screen and (max-width: 480px){
+        display: none;
+    }
 }
 
 h6{
@@ -269,6 +346,10 @@ h6{
 
     margin-left: 50px;
     //background-color: indigo;
+    @media screen and (max-width: 480px){
+        height: 23px;
+        margin-left: 20px;
+    }
 }
 
 .input_div{
@@ -281,6 +362,12 @@ h6{
     
     vertical-align: middle;
     //background-color: rgb(255, 251, 0);
+    @media screen and (max-width: 480px){
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
+        min-height: 0;
+    }
 }
 
 .input_field{
