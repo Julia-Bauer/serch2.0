@@ -349,7 +349,7 @@ h6{
     
     color: #222;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: normal;
     line-height: 16px;
     vertical-align: middle;
 
@@ -358,6 +358,7 @@ h6{
     @media screen and (max-width: 480px){
         height: 23px;
         margin-left: 20px;
+        
     }
 }
 
@@ -608,6 +609,10 @@ h6{
     min-width: 167px;
 
     margin-left: 50px;
+
+    @media screen and (max-width: 480px){
+        display: none;
+    }
 }
 
 #submit_div{
@@ -621,6 +626,12 @@ h6{
     margin-top: 15px;
 
     //background-color: blue;
+    @media screen and (max-width: 480px){
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    }
 }
 
 #submit_as{
